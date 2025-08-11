@@ -167,6 +167,7 @@ a{
 }
 
 .home-info .btn-sci .sci a:hover{
+    transform: translateY(-10px);
     background: #1792d2;
     color: #1f242d;
     box-shadow: 0 0 10px #1792d2;
