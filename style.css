@@ -13,7 +13,7 @@ a{
 }
 
 .navbar{
-    position: fixed;
+    position: absolute;
     left: 0;
     top: 0;
     width: 100%;
@@ -190,8 +190,8 @@ a{
 .home-img .img-box::after{
     content: '';
     position: absolute;
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 400px;
     background: conic-gradient(transparent, transparent, transparent, #1792d2);
     transform: rotate(0deg);
     animation: rotate-border 10s linear infinite;
