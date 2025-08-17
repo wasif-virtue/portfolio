@@ -6,6 +6,7 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+
 .contact{
     position: relative;
     min-height: 100vh;
@@ -128,6 +129,9 @@
 }
 
 @media(max-width:991px){
+    .navbar{
+        flex-direction: column;
+    }
     .contact{
         padding: 50px;
     }
