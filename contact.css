@@ -122,7 +122,7 @@ body{
     font-size: 12px;
     transform: translateY(-20px);
 }
-.contactForm .inputBox button{
+.contactForm .inputBox .send{
     display: flex;
     align-items: center;
     border-radius: 50px;
