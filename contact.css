@@ -7,6 +7,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+body{
+    background: #1f242d;
+}
+
 .contact{
     position: relative;
     min-height: 100vh;
@@ -128,10 +132,8 @@
     font-size: 18px;
 }
 
+
 @media(max-width:991px){
-    .navbar{
-        flex-direction: column;
-    }
     .contact{
         padding: 50px;
     }
