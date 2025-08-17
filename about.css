@@ -2,4 +2,8 @@
     *{
         background: #1f242d;
     }
+    footer{
+        display: none;
+    }
 }
+

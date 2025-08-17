@@ -6,12 +6,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contact</title>
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="contact.css">
+  <link rel="stylesheet" type="text/css" href="contact.css">
   <link rel="icon" type="image/png" href="icon5.png">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  
+
   <nav class="navbar">
     <a href="index.html" class="logo">Portfolio.</a>
     <ul>
@@ -31,22 +31,59 @@
     <div class="bars" style="--i:1;"></div>
   </div>
 
-  <section class="home">
-    <div class="home-info">
-      <h1>📩 Contact Me</h1><br>
-      <h2>I’d love to connect with like-minded developers, creators, and businesses! 🚀</h2>
-      <div>
-        <li>Email:
-        <strong>virtuevisioncompany@gmail.com</strong>
-        </li>
+  <section class="contact">
+    <div class="content">
+      <h2>Contact Me</h2><br>
+      <p>I’d love to connect with like-minded developers, creators, and businesses! 🚀</p>
+    </div>  
+    <div class="container">
+      <div class="contactInfo">
+        <div class="box">
+          <div class="icon"><i class='bx bxs-map'></i></div>
+          <div class="text">
+            <h3>Address</h3>
+            <p>Pakistan, Punjab, <br>Okara Cantonment, Adda Gamber,<br> Mahallah Fareed Nagar Street no.5</p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="icon"><i class='bx bxs-phone'></i></div>
+          <div class="text">
+            <h3>Phone</h3>
+            <p>+92 306-6045714</p>
+          </div>
+        </div>
+        <div class="box">
+          <div class=icon><i class='bx bxs-envelope' ></i></div>
+          <div class="text">
+            <h3>Email</h3>
+            <p>virtuevisioncommpany@gmail.com</p>
+          </div>
+        </div>
       </div>
-      <div>
-        <li><a href="https://github.com/wasif-virtue/">GitHub: <i>Type here to see GitHub profile. </i></a></li>
+      <div class="contactForm">
+        <form action="">
+          <h2>Send Message</h2>
+          <div class="inputBox">
+            <input type="text" name="" required="required">
+            <span>Full Name</span>
+          </div>
+          <div class="inputBox">
+            <input type="text" name="" required="required">
+            <span>Email</span>
+          </div>
+          <div class="inputBox">
+            <textarea required="required"></textarea>
+            <span>Type your Message.....</span>
+          </div>
+          <div class="inputBox">
+            <input type="submit" name="" value="Send">
+          </div>
+        </form>
       </div>
-      <br>
-      <br>
-      <p>Or simply fill out the contact form below — I’ll get back to you as soon as possible.</p>
-      
+    </div>
   </section>
+  <footer>
+    <p>&copy; 2025 Wasif's Portfolio | All rights reserved.</p>
+  </footer>
 </body>
 </html>
