@@ -73,3 +73,9 @@
   background: transparent;
   color: #1792d2;
 }
+
+@media (max-width:445px){
+  *{
+    background: #1f242d;
+  }
+}
